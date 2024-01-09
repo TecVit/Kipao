@@ -1,0 +1,28 @@
+/* FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary: #ED7D31;
+    --secundary: #381300;
+    --light: #FFFFFF;
+    --dark: #232323;
+    --gray: #666565;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: var(--light);
+}
+
+::selection {
+    background-color: var(--primary); /* Cor de fundo ao selecionar texto */
+    color:var(--light); /* Cor do texto selecionado */
+}
